@@ -11,6 +11,8 @@ import CommentList from './ch05/CommentList'
 
 import NotificationList from './ch06/NotificationList'
 
+import Accomodate from './ch07/Accomodate'
+
 // ch04
 // setInterval(() => {
 //   ReactDOM.render(
@@ -31,13 +33,20 @@ import NotificationList from './ch06/NotificationList'
 // )
 
 //ch06
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <NotificationList />
+//   </React.StrictMode>,
+//   document.getElementById('root')
+// );
+
+
 ReactDOM.render(
   <React.StrictMode>
-    <NotificationList />
+    <Accomodate />
   </React.StrictMode>,
   document.getElementById('root')
 );
-
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
