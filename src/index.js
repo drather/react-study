@@ -15,6 +15,8 @@ import Accomodate from './ch07/Accomodate'
 
 import ConfirmButtonClass from './ch08/ConfirmButtonClass';
 import ConfirmButtonFunction from './ch08/ConfirmButtonFunction'; 
+import Toolbar from './ch09/Toolbar';
+import LandingPage from './ch09/LandingPage';
 
 // ch04
 // setInterval(() => {
@@ -44,7 +46,7 @@ import ConfirmButtonFunction from './ch08/ConfirmButtonFunction';
 // );
 
 
-// ch08
+// ch07
 // ReactDOM.render(
 //   <React.StrictMode>
 //     <Accomodate />
@@ -52,17 +54,19 @@ import ConfirmButtonFunction from './ch08/ConfirmButtonFunction';
 //   document.getElementById('root')
 // );
 
+//ch08
 // ReactDOM.render(
 //   <React.StrictMode>
-//     <Accomodate />
+//     <ConfirmButtonClass />
+//     <ConfirmButtonFunction />
 //   </React.StrictMode>,
 //   document.getElementById('root')
-// );
+// )
 
+//ch09
 ReactDOM.render(
   <React.StrictMode>
-    <ConfirmButtonClass />
-    <ConfirmButtonFunction />
+    <LandingPage />
   </React.StrictMode>,
   document.getElementById('root')
 )
