@@ -13,6 +13,9 @@ import NotificationList from './ch06/NotificationList'
 
 import Accomodate from './ch07/Accomodate'
 
+import ConfirmButtonClass from './ch08/ConfirmButtonClass';
+import ConfirmButtonFunction from './ch08/ConfirmButtonFunction'; 
+
 // ch04
 // setInterval(() => {
 //   ReactDOM.render(
@@ -41,12 +44,28 @@ import Accomodate from './ch07/Accomodate'
 // );
 
 
+// ch08
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <Accomodate />
+//   </React.StrictMode>,
+//   document.getElementById('root')
+// );
+
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <Accomodate />
+//   </React.StrictMode>,
+//   document.getElementById('root')
+// );
+
 ReactDOM.render(
   <React.StrictMode>
-    <Accomodate />
+    <ConfirmButtonClass />
+    <ConfirmButtonFunction />
   </React.StrictMode>,
   document.getElementById('root')
-);
+)
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
