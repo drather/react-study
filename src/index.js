@@ -17,6 +17,11 @@ import ConfirmButtonClass from './ch08/ConfirmButtonClass';
 import ConfirmButtonFunction from './ch08/ConfirmButtonFunction'; 
 import Toolbar from './ch09/Toolbar';
 import LandingPage from './ch09/LandingPage';
+import AttendanceBookWithoutKey from './ch10/AttendanceBook';
+import AttendanceBookWithKey from './ch10/AttendanceBook';
+import AttendanceBookWithKeyFormattedString from './ch10/AttendanceBook';
+import AttendanceBookWithKeyIndex from './ch10/AttendanceBook';
+
 
 // ch04
 // setInterval(() => {
@@ -64,12 +69,23 @@ import LandingPage from './ch09/LandingPage';
 // )
 
 //ch09
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <LandingPage />
+//   </React.StrictMode>,
+//   document.getElementById('root')
+// )
+
+//ch10
 ReactDOM.render(
   <React.StrictMode>
-    <LandingPage />
+    <AttendanceBookWithoutKey/>
+    <AttendanceBookWithKey/>
+    <AttendanceBookWithKeyFormattedString/>
+    <AttendanceBookWithKeyIndex/>
   </React.StrictMode>,
   document.getElementById('root')
-)
+);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
