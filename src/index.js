@@ -23,6 +23,8 @@ import AttendanceBookWithKeyFormattedString from './ch10/AttendanceBook';
 import AttendanceBookWithKeyIndex from './ch10/AttendanceBook';
 import SignUp from './ch11/SignUp';
 import Calculator from './ch12/Calculator';
+import ProfileCard from './ch13/ProfileCard';
+import KksCard from './ch13/KksCard';
 
 
 // ch04
@@ -99,12 +101,23 @@ import Calculator from './ch12/Calculator';
 // );
 
 //ch12
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <Calculator/>
+//   </React.StrictMode>,
+//   document.getElementById('root')
+// );
+
+
+//ch13
 ReactDOM.render(
   <React.StrictMode>
-    <Calculator/>
+    <ProfileCard/>
+    <KksCard/>
   </React.StrictMode>,
   document.getElementById('root')
 );
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
