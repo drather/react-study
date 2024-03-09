@@ -22,6 +22,7 @@ import AttendanceBookWithKey from './ch10/AttendanceBook';
 import AttendanceBookWithKeyFormattedString from './ch10/AttendanceBook';
 import AttendanceBookWithKeyIndex from './ch10/AttendanceBook';
 import SignUp from './ch11/SignUp';
+import Calculator from './ch12/Calculator';
 
 
 // ch04
@@ -90,9 +91,17 @@ import SignUp from './ch11/SignUp';
 
 
 //ch11
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <SignUp/>
+//   </React.StrictMode>,
+//   document.getElementById('root')
+// );
+
+//ch12
 ReactDOM.render(
   <React.StrictMode>
-    <SignUp/>
+    <Calculator/>
   </React.StrictMode>,
   document.getElementById('root')
 );
