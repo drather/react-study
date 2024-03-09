@@ -21,6 +21,7 @@ import AttendanceBookWithoutKey from './ch10/AttendanceBook';
 import AttendanceBookWithKey from './ch10/AttendanceBook';
 import AttendanceBookWithKeyFormattedString from './ch10/AttendanceBook';
 import AttendanceBookWithKeyIndex from './ch10/AttendanceBook';
+import SignUp from './ch11/SignUp';
 
 
 // ch04
@@ -77,12 +78,21 @@ import AttendanceBookWithKeyIndex from './ch10/AttendanceBook';
 // )
 
 //ch10
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <AttendanceBookWithoutKey/>
+//     <AttendanceBookWithKey/>
+//     <AttendanceBookWithKeyFormattedString/>
+//     <AttendanceBookWithKeyIndex/>
+//   </React.StrictMode>,
+//   document.getElementById('root')
+// );
+
+
+//ch11
 ReactDOM.render(
   <React.StrictMode>
-    <AttendanceBookWithoutKey/>
-    <AttendanceBookWithKey/>
-    <AttendanceBookWithKeyFormattedString/>
-    <AttendanceBookWithKeyIndex/>
+    <SignUp/>
   </React.StrictMode>,
   document.getElementById('root')
 );
