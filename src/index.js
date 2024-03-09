@@ -25,6 +25,7 @@ import SignUp from './ch11/SignUp';
 import Calculator from './ch12/Calculator';
 import ProfileCard from './ch13/ProfileCard';
 import KksCard from './ch13/KksCard';
+import DarkOrLight from './ch14/DarkOrLight';
 
 
 // ch04
@@ -110,14 +111,22 @@ import KksCard from './ch13/KksCard';
 
 
 //ch13
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <ProfileCard/>
+//     <KksCard/>
+//   </React.StrictMode>,
+//   document.getElementById('root')
+// );
+
+
+//ch14
 ReactDOM.render(
   <React.StrictMode>
-    <ProfileCard/>
-    <KksCard/>
+    <DarkOrLight/>
   </React.StrictMode>,
   document.getElementById('root')
 );
-
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
