@@ -26,7 +26,7 @@ import Calculator from './ch12/Calculator';
 import ProfileCard from './ch13/ProfileCard';
 import KksCard from './ch13/KksCard';
 import DarkOrLight from './ch14/DarkOrLight';
-
+import Blocks from './ch15/Block';
 
 // ch04
 // setInterval(() => {
@@ -121,9 +121,17 @@ import DarkOrLight from './ch14/DarkOrLight';
 
 
 //ch14
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <DarkOrLight/>
+//   </React.StrictMode>,
+//   document.getElementById('root')
+// );
+
+//ch15
 ReactDOM.render(
   <React.StrictMode>
-    <DarkOrLight/>
+    <Blocks/>
   </React.StrictMode>,
   document.getElementById('root')
 );
