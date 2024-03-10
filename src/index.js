@@ -4,29 +4,29 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import Library from './ch03/Library'
-import Clock from './ch04/Clock'
+import Library from './study/ch03/Library'
+import Clock from './study/ch04/Clock'
 
-import CommentList from './ch05/CommentList'
+import CommentList from './study/ch05/CommentList'
 
-import NotificationList from './ch06/NotificationList'
+import NotificationList from './study/ch06/NotificationList'
 
-import Accomodate from './ch07/Accomodate'
+import Accomodate from './study/ch07/Accomodate'
 
-import ConfirmButtonClass from './ch08/ConfirmButtonClass';
-import ConfirmButtonFunction from './ch08/ConfirmButtonFunction'; 
-import Toolbar from './ch09/Toolbar';
-import LandingPage from './ch09/LandingPage';
-import AttendanceBookWithoutKey from './ch10/AttendanceBook';
-import AttendanceBookWithKey from './ch10/AttendanceBook';
-import AttendanceBookWithKeyFormattedString from './ch10/AttendanceBook';
-import AttendanceBookWithKeyIndex from './ch10/AttendanceBook';
-import SignUp from './ch11/SignUp';
-import Calculator from './ch12/Calculator';
-import ProfileCard from './ch13/ProfileCard';
-import KksCard from './ch13/KksCard';
-import DarkOrLight from './ch14/DarkOrLight';
-import Blocks from './ch15/Block';
+import ConfirmButtonClass from './study/ch08/ConfirmButtonClass';
+import ConfirmButtonFunction from './study/ch08/ConfirmButtonFunction'; 
+import Toolbar from './study/ch09/Toolbar';
+import LandingPage from './study/ch09/LandingPage';
+import AttendanceBookWithoutKey from './study/ch10/AttendanceBook';
+import AttendanceBookWithKey from './study/ch10/AttendanceBook';
+import AttendanceBookWithKeyFormattedString from './study/ch10/AttendanceBook';
+import AttendanceBookWithKeyIndex from './study/ch10/AttendanceBook';
+import SignUp from './study/ch11/SignUp';
+import Calculator from './study/ch12/Calculator';
+import ProfileCard from './study/ch13/ProfileCard';
+import KksCard from './study/ch13/KksCard';
+import DarkOrLight from './study/ch14/DarkOrLight';
+import Blocks from './study/ch15/Block';
 
 // ch04
 // setInterval(() => {
@@ -121,20 +121,23 @@ import Blocks from './ch15/Block';
 
 
 //ch14
+ReactDOM.render(
+  <React.StrictMode>
+    <DarkOrLight/>
+  </React.StrictMode>,
+  document.getElementById('root')
+);
+
+//ch15
 // ReactDOM.render(
 //   <React.StrictMode>
-//     <DarkOrLight/>
+//     <Blocks/>
 //   </React.StrictMode>,
 //   document.getElementById('root')
 // );
 
-//ch15
-ReactDOM.render(
-  <React.StrictMode>
-    <Blocks/>
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
