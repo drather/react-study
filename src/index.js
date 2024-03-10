@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 import Library from './_study/ch03/Library'
+
 import Clock from './_study/ch04/Clock'
 
 import CommentList from './_study/ch05/CommentList'
@@ -15,18 +16,35 @@ import Accomodate from './_study/ch07/Accomodate'
 
 import ConfirmButtonClass from './_study/ch08/ConfirmButtonClass';
 import ConfirmButtonFunction from './_study/ch08/ConfirmButtonFunction'; 
+
 import Toolbar from './_study/ch09/Toolbar';
 import LandingPage from './_study/ch09/LandingPage';
+
 import AttendanceBookWithoutKey from './_study/ch10/AttendanceBook';
 import AttendanceBookWithKey from './_study/ch10/AttendanceBook';
 import AttendanceBookWithKeyFormattedString from './_study/ch10/AttendanceBook';
 import AttendanceBookWithKeyIndex from './_study/ch10/AttendanceBook';
+
 import SignUp from './_study/ch11/SignUp';
+
 import Calculator from './_study/ch12/Calculator';
+
 import ProfileCard from './_study/ch13/ProfileCard';
+
 import KksCard from './_study/ch13/KksCard';
+
 import DarkOrLight from './_study/ch14/DarkOrLight';
+
 import Blocks from './_study/ch15/Block';
+
+// mini-blog
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+)
+
 
 // ch04
 // setInterval(() => {
@@ -121,12 +139,12 @@ import Blocks from './_study/ch15/Block';
 
 
 //ch14
-ReactDOM.render(
-  <React.StrictMode>
-    <DarkOrLight/>
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <DarkOrLight/>
+//   </React.StrictMode>,
+//   document.getElementById('root')
+// );
 
 //ch15
 // ReactDOM.render(
