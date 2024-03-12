@@ -4,38 +4,38 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import Library from './_study/ch03/Library'
+import Library from './_study/ch03-jsx/Library'
 
-import Clock from './_study/ch04/Clock'
+import Clock from './_study/ ch04-rendering-elements/Clock'
 
-import CommentList from './_study/ch05/CommentList'
+import CommentList from './_study/ch05-components-props/CommentList'
 
-import NotificationList from './_study/ch06/NotificationList'
+import NotificationList from './_study/ch06-state-lifecycle/NotificationList'
 
-import Accomodate from './_study/ch07/Accomodate'
+import Accomodate from './_study/ch07-hooks/Accomodate'
 
-import ConfirmButtonClass from './_study/ch08/ConfirmButtonClass';
-import ConfirmButtonFunction from './_study/ch08/ConfirmButtonFunction'; 
+import ConfirmButtonClass from './_study/ch08-handing-events/ConfirmButtonClass';
+import ConfirmButtonFunction from './_study/ch08-handing-events/ConfirmButtonFunction'; 
 
-import Toolbar from './_study/ch09/Toolbar';
-import LandingPage from './_study/ch09/LandingPage';
+import Toolbar from './_study/ch09-conditional-rendering/Toolbar';
+import LandingPage from './_study/ch09-conditional-rendering/LandingPage';
 
-import AttendanceBookWithoutKey from './_study/ch10/AttendanceBook';
-import AttendanceBookWithKey from './_study/ch10/AttendanceBook';
-import AttendanceBookWithKeyFormattedString from './_study/ch10/AttendanceBook';
-import AttendanceBookWithKeyIndex from './_study/ch10/AttendanceBook';
+import AttendanceBookWithoutKey from './_study/ch10-list-keys/AttendanceBook';
+import AttendanceBookWithKey from './_study/ch10-list-keys/AttendanceBook';
+import AttendanceBookWithKeyFormattedString from './_study/ch10-list-keys/AttendanceBook';
+import AttendanceBookWithKeyIndex from './_study/ch10-list-keys/AttendanceBook';
 
-import SignUp from './_study/ch11/SignUp';
+import SignUp from './_study/ch11-forms/SignUp';
 
-import Calculator from './_study/ch12/Calculator';
+import Calculator from './_study/ch12-lifting-state-up/Calculator';
 
-import ProfileCard from './_study/ch13/ProfileCard';
+import ProfileCard from './_study/ch13-composition-inheritance/ProfileCard';
 
-import KksCard from './_study/ch13/KksCard';
+import KksCard from './_study/ch13-composition-inheritance/KksCard';
 
-import DarkOrLight from './_study/ch14/DarkOrLight';
+import DarkOrLight from './_study/ch14-context/DarkOrLight';
 
-import Blocks from './_study/ch15/Block';
+import Blocks from './_study/ch15-styling/Block';
 
 // mini-blog
 ReactDOM.render(
